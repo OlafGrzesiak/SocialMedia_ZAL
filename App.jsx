@@ -3,6 +3,7 @@ import { AuthProvider } from "./Context/AuthContext";
 import LoginPage from "./Pages/LoginPage";
 import FeedPage from "./Pages/FeedPage";
 import UserPage from "./Pages/UserPage";
+import SearchPage from "./Pages/SearchPage";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           <Route path="/" element={<LoginPage />} />
           <Route path="/feed" element={<FeedPage />} />
           <Route path="/profile" element={<UserPage />} />
+          <Route path="/search" element={<SearchPage />} />
         </Routes>
       </Router>
     </AuthProvider>
