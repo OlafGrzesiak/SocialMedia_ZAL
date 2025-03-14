@@ -5,6 +5,7 @@ import FeedPage from "./Pages/FeedPage";
 import UserPage from "./Pages/UserPage";
 import SearchPage from "./Pages/SearchPage";
 import PostsPage from "./Pages/PostsPage";
+import PhotosPage from "./Pages/PhotosPage";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/profile" element={<UserPage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/posts" element={<PostsPage />} />
+          <Route path="/photos" element={<PhotosPage />} />
         </Routes>
       </Router>
     </AuthProvider>
